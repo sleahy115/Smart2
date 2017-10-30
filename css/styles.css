@@ -614,12 +614,6 @@
     padding-left: 2%
 }
 
-.profile {
-	display: flex;
-	margin-left: 5%;
-	margin-bottom: 20%;
-}
-
 .profile-pic {
 	height: 400px;
 	width: 300px;
@@ -797,6 +791,11 @@ ul {
 		width: 7%;
 	}
 
+	.profile {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
 	.pros {
 		margin-top: 50%;
 	}
@@ -813,6 +812,10 @@ ul {
 	}
 	.bottom-footer a, .bottom-footer p {
 		padding-right: 0%;
+	}
+
+	.col-profile {
+		margin-left: 0%;
 	}
 
 	.image p {
@@ -851,6 +854,11 @@ ul {
 		margin-left: 0px;
 	}
 
+	.profile {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
 	.slideshow {
 		padding-left: 27%;
 	}
@@ -860,6 +868,12 @@ ul {
 @media screen and (min-device-width: 1000px) and (max-device-width: 5000px) {
     .hamburger {
 		display: none;
+	}
+
+	.profile {
+		display: flex;
+		margin-left: 5%;
+		margin-bottom: 20%;
 	}
 }	
 
