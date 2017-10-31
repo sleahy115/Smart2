@@ -655,10 +655,23 @@
 }
 
 .slideshow {
-	display: flex;
-	align-items: center;
-	padding-left: 25%;
-	width: 50%;
+}
+
+
+.slideshow {
+  align-items: center;
+  display: flex;
+  margin: 80px auto;
+  position: relative;
+  width: 50%;
+}
+
+.slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
 }
 
 .social {
@@ -767,7 +780,7 @@ ul {
 	}
 
 	.image p {
-		font-size: 5px;
+		font-size: 10px;
 		width: 37%;
 		height: 24%;
 	}
@@ -803,6 +816,10 @@ ul {
 	.questions {
 		height: -3%;
 		width: 131%;
+	}
+
+	.rsvp {
+		width: 53%;
 	}
 
 	.sponsers {
@@ -864,10 +881,13 @@ ul {
 		margin-right: 25%;
 	}
 
+	.rsvp {
+		width: 53%;
+	}
+
 	.slideshow {
 		padding-left: 27%;
 	}
-
 }
 
 @media screen and (min-device-width: 1000px) and (max-device-width: 5000px) {
