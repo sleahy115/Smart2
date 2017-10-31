@@ -621,7 +621,7 @@
 
 .questions {
 	background-color: rgba( 253,139,4,0.7);
-	height: 1%;
+	height: -1%;
 	width: 50%;
 	margin-right: -10000px;
 	position: relative;
@@ -798,6 +798,11 @@ ul {
 
 	.pros {
 		margin-top: 50%;
+	}
+
+	.questions {
+		height: -3%;
+		width: 131%;
 	}
 
 	.sponsers {
