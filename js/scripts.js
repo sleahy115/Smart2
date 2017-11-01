@@ -1,4 +1,8 @@
-
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $(".links").toggle();
+  });
+ });
 $(function(){
     $('.slideshow img:gt(0)').hide();
     setInterval(function(){

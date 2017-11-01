@@ -279,26 +279,26 @@
 }
 
 .icons-join {
-	position: absolute;
-	background-color: rgba(255,139,4, 0.7); 
+	/*position: absolute;*/
+	/*background-color: rgba(255,139,4, 0.7); */
 	overflow-wrap: break-word; 
 	color: white;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
     padding: 10px;
-    top: 32%;
-    left: 58%;
+   /* top: 32%;
+    left: 58%;*/
     display: inline-flex;
     flex-direction: row;
-    width: 40.5%;
-    justify-content: center;
+    width: 97.5%;
+    justify-content: space-around;
 }
 
-.icons-join img {
+/*.icons-join img {
 	height: 20%;
 	width: 20%;
 }
-
+*/
 .icon-options {
 	display: flex;
 	flex-direction: row;
@@ -326,18 +326,19 @@
 }
 
 .icon-text-join {
-	position: absolute;
-	background-color: rgba(255,139,4, 0.7); 
+	/*position: absolute;*/
+	/*background-color: rgba(255,139,4, 0.7); */
 	overflow-wrap: break-word; 
 	color: white;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
-    padding: 10px;
-    top: 48%;
-    left: 58%;
+    padding-right: 25%;
+    /*padding: 10px;*/
+    /*top: 48%;*/
+    /*left: 58%;*/
     display: inline-flex;
     flex-direction: row;
-    width: 40.5%;
+    width: 97.5%;
     justify-content: space-around;
 }
 
@@ -365,16 +366,19 @@
 	width: 100%;
 }
 
-.image-join p {
+.image-join {
+	background-color: rgba(255,139,4, 0.7);
 	position: absolute;
-	background-color: rgba(255,139,4, 0.7); 
+    top: 12%;
+    left: 55%;
+}
+
+.image-join p {
 	overflow-wrap: break-word; 
 	color: white;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
     padding: 10px;
-    top: 12%;
-    left: 58%;
 }
 
 .image-join img {
