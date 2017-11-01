@@ -279,26 +279,16 @@
 }
 
 .icons-join {
-	/*position: absolute;*/
-	/*background-color: rgba(255,139,4, 0.7); */
 	overflow-wrap: break-word; 
 	color: white;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
-    padding: 10px;
-   /* top: 32%;
-    left: 58%;*/
     display: inline-flex;
     flex-direction: row;
     width: 97.5%;
     justify-content: space-around;
 }
 
-/*.icons-join img {
-	height: 20%;
-	width: 20%;
-}
-*/
 .icon-options {
 	display: flex;
 	flex-direction: row;
@@ -371,6 +361,7 @@
 	position: absolute;
     top: 12%;
     left: 55%;
+    padding-left: 2%;
 }
 
 .image-join p {
@@ -378,7 +369,6 @@
 	color: white;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 16px;
-    padding: 10px;
 }
 
 .image-join img {
@@ -783,10 +773,30 @@ ul {
 		display: none;
 	}
 
+	.icon-test-join {
+		width: 94.5%;
+	}
+
+	.icons-join a {
+		height: 25%;
+	}
+
 	.image p {
 		font-size: 10px;
 		width: 37%;
 		height: 24%;
+	}
+
+	.image-join {
+		top: 3%;
+		left: 55%;
+		width: 43%;
+		height: 86%;
+	}
+
+	.image-join img {
+		height: 90%;
+		width: 90%;
 	}
 
 	.info {
