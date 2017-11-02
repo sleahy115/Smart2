@@ -2,12 +2,13 @@
 <html>
 <head>
 	<title>Consultant application</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"
-  	integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  	crossorigin="anonymous"></script>
-  	<script src="js/scripts.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+   <script src="js/scripts.js"></script>
 </head>
 <body>
   <div class="hamburger">
@@ -35,51 +36,30 @@
 </div>
 <p class="headline-partners">Consultant application</p>
 <p class="headline-form">About you</p>
-<form class="about-you">
-	<label>First name:</label>
-	<br>
-	<input type="text" name="first-name" placeholder="Enter first name">
-	<br>
-	<br>
-	<label>Last name:</label>
-	<br>
-	<input type="text" name="last-name" placeholder="Enter last name">
-	<br>
-	<br>
-	<label>Email:</label>
-	<br>
-	<input type="email" name="email" placeholder="Enter email address">
-	<br>
-	<br>
-	<label>Work phone:</label>
-	<br>
-	<input type="number" name="work-phone" placeholder="Enter phone number">
+<form class="contact-form">
+	<label for="consultant-first-name">First name:</label>
+	<input type="text" class="form-control" name="consultant-first-name" placeholder="Enter first name">
+	<label for="consultant-last-name">Last name:</label>
+	<input type="text" class="form-control" id="consultant-last-name" placeholder="Enter last name">
+	<label for="consultant-email">Email:</label>
+	<input type="email" class="form-control" id="consultant-email" placeholder="Enter email address">
+	<label for="consultant-phone">Work phone:</label>
+	<input type="number" class="form-control" id="consultant-phone" placeholder="Enter phone number">
+	<button type="button" class="btn btn-primary">Submit</button>
 </form>
-<p class="headline-form">About you company</p>
-<form class="about-you">
-	<label>Company:</label>
-	<br>
-	<input type="text" name="company" placeholder="Enter company">
-	<br>
-	<br>
-	<label>Work address:</label>
-	<br>
-	<input type="text" name="work-address" placeholder="Enter work address">
-	<br>
-	<br>
-	<label>City:</label>
-	<br>
-	<input type="text" name="city" placeholder="Enter city">
-	<br>
-	<br>
-	<label>State:</label>
-	<br>
-	<input type="text" name="state" placeholder="NM">
-	<br>
-	<br>
-	<label>Zip code:</label>
-	<br>
-	<input type="number" name="zip-code" placeholder="Enter zip code">
+<p class="headline-form">About your company</p>
+<form class="contact-form">
+	<label class="consultant-company">Company:</label>
+	<input type="text" class="form-control" id="consultant-company" placeholder="Enter company">
+	<label for="consultant-work-address">Work address:</label>
+	<input type="text" class="form-control" id="consultant-work-address" placeholder="Enter work address">
+	<label class="consultant-city">City:</label>
+	<input type="text" class="form-control" id="consultant-city" placeholder="Enter city">
+	<label for="consultant-state">State:</label>
+	<input type="text" class="form-control" id="consultant-state" placeholder="NM">
+	<label class="consultant-zip">Zip code:</label>
+	<input type="number" class="form-control" id="consultant-zip" placeholder="Enter zip code">
+	<button type="button" class="btn btn-primary">Submit</button>
 </form>
 <p class="headline-form">Payment information</p>
 <p class="payment">Payment info</p>
