@@ -239,6 +239,11 @@
 	margin-bottom: 5%;
 }
 
+.form-check {
+	margin-right: 10%;
+	margin-left: 20%;
+}
+
 .header {
 	display: flex;
 	flex-direction: row;
@@ -255,7 +260,7 @@
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	display: flex;
 	justify-content: flex-start;
-	font-size: 18px;
+	font-size: 30px;
 	margin-left: 20%
 }
 

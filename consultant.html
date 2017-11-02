@@ -68,13 +68,26 @@
 <p class="payment-info">Total<span class="space"></span>563.39</p>
 <p class="fees">All subscriber fees are final and nonrefundable. Subscription<br> is on an annual or monthly basis and will renew automatically.</p>
 <p class="headline-form">Billing prefrence:</p>
-<form class="bill-me">
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+    Bill me monthly-12 equal payments of 43.75
+  </label>
+</div>
+<div class="form-check">
+  <label class="form-check-label">
+    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+    Bill me annually
+  </label>
+</div>
+
+
+<!-- <div class="form-check">
 	<label>Bill me monthly-12 equal payments of 43.75</label>
-	<input type="radio" name="monthly" value="monthly">
-	<br>
+	<input type="radio" class="form-control" name="monthly" value="monthly">
 	<label>Bill me annually</label>
 	<input type="radio" name="annually" value="annually" checked="">
-</form>
+</form> -->
 <p class="fees">gross reciepts tax of 7.32% applied on checkout</p>
 <form class="bill-me">
 	<label>Promo code(optional)</label>
