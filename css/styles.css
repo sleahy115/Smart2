@@ -753,6 +753,12 @@ ul {
 		justify-content: flex-end;
 	}
 
+	.hamburger img {
+		height: 10%;
+		width: 10%;
+		padding-top: 1%;
+	}
+
 	.headline-join {
 		font-size: 8px;
 	}
@@ -833,8 +839,9 @@ ul {
 	}
 
 	.logo img {
-		height: 83%;
-		width: 91%;
+		height: 99%;
+		width: 79%;
+		margin-top: -12%;
 	}
 
 	.main-block img {
