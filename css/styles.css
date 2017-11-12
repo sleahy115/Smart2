@@ -760,7 +760,7 @@ ul {
 	}
 
 	.headline-join {
-		font-size: 8px;
+		font-size: 26px;
 	}
 
 	.headline-partners {
@@ -801,9 +801,10 @@ ul {
 	}
 
 	.image p {
-		font-size: 10px;
-		width: 37%;
-		height: 24%;
+	    font-size: 19px;
+	    width: 41%;
+	    height: 57%;
+	    top: 5%;
 	}
 
 	.image-join {
@@ -819,8 +820,11 @@ ul {
 	}
 
 	.info {
-		font-size: 8px;
-		width: 6.5%;
+		font-size: 16px;
+		width: 7.5%;
+		height: 6%;
+		left: 44%;
+		top: 75%;
 	}
 
 	.links {
