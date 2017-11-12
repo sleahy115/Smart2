@@ -296,12 +296,6 @@
 	line-height: 150%;
 }
 
-.icon-img {
-	width: 75%;
-	display: flex;
-	justify-content: space-evenly;
-}
-
 .icons-join {
 	overflow-wrap: break-word; 
 	color: white;
@@ -311,32 +305,6 @@
     flex-direction: row;
     width: 97.5%;
     justify-content: space-around;
-}
-
-.icon-options {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	flex-wrap: wrap;
-}
-
-.icon-options img {
-	height: 102%; 
-	width: 65%;
-	margin-left: 19%;
-}
-
-.icon-text {
-	width: 92%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	font-size: 14px;
-	color: black;
-	font-weight: 900;
-	font-family: arial, sans-serif;
 }
 
 .icon-text-join {
@@ -810,6 +778,23 @@ ul {
 		height: 25%;
 	}
 
+	.icon-options {
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+
+	.icon-text {
+		display: none;
+	}
+
+	.icon-text-phone {
+		margin-left: 37%;
+		font-size: 18px;
+		color: black;
+		font-weight: 900;
+		font-family: arial, sans-serif;
+	}
+
 	.image p {
 		font-size: 10px;
 		width: 37%;
@@ -845,6 +830,10 @@ ul {
 
 	.main-block img {
 		width: 7%;
+	}
+
+	.main-img {
+		height: 267px;
 	}
 
 	.profile {
@@ -899,7 +888,6 @@ ul {
 
 	.icon-text {
 	width: 100%;
-	background-color: pink;
 	}
 
 	.hamburger {
@@ -935,6 +923,38 @@ ul {
 @media screen and (min-device-width: 1000px) and (max-device-width: 5000px) {
     .hamburger {
 		display: none;
+	}
+
+	.icon-img {
+		width: 75%;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.icon-options {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		flex-wrap: wrap;
+	}
+
+	.icon-options img {
+		height: 102%; 
+		width: 65%;
+		margin-left: 19%;
+	}
+
+	.icon-text {
+		width: 92%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		font-size: 14px;
+		color: black;
+		font-weight: 900;
+		font-family: arial, sans-serif;
 	}
 
 	.profile {
