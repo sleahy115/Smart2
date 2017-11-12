@@ -402,15 +402,6 @@
  	flex-direction: row;
   }
 
-.links {
-	padding: 10px;
-	color: rgb(33,120,128);
-	text-transform: uppercase;
-	font-size: 12px;
-	font-family: arial, sans-serif;
-	font-weight: 400;
-}
-
 .links-bottom {
 	padding: 10px;
 	color: rgb(33,120,128);
@@ -822,10 +813,28 @@ ul {
 		display: none;
 	}
 
+	#links-phone {
+		display: flex;
+	    flex-direction: column;
+	    font-size: 22px;
+	    text-align: center;
+	    align-items: center;
+	    margin-right: 2%
+	}
+
+	#links-phone a {
+		padding-bottom: 10%;
+	}
+
 	.links-bottom {
 		font-size: 8px;
 		margin-right: 0px;
 		margin-left: 0px;
+	}
+
+	.logo img {
+		height: 83%;
+		width: 91%;
 	}
 
 	.main-block img {
@@ -888,6 +897,10 @@ ul {
 
 	.icon-text {
 	width: 100%;
+	}
+
+	.icon-text-phone {
+		display: none;
 	}
 
 	.hamburger {
@@ -955,6 +968,19 @@ ul {
 		color: black;
 		font-weight: 900;
 		font-family: arial, sans-serif;
+	}
+
+	.icon-text-phone {
+		display: none;
+	}
+
+	.links {
+		padding: 10px;
+		color: rgb(33,120,128);
+		text-transform: uppercase;
+		font-size: 12px;
+		font-family: arial, sans-serif;
+		font-weight: 400;
 	}
 
 	.profile {
