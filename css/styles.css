@@ -752,10 +752,19 @@ ul {
 	}
 
 	.calendar-pro-links img {
-	height: 80%;
-	width: 80%;
-	margin-left: 8%;
-}
+		height: 80%;
+		width: 80%;
+		margin-left: 8%;
+	}
+
+	.contact-form input, .contact-form textarea {
+		width: 94%;
+	}
+
+	.form-control {
+		height: 57px;
+		font-size: 28px;
+	}
 
 	.hamburger {
 		display: flex;
@@ -840,6 +849,9 @@ ul {
 		top: 75%;
 	}
 
+	.label {
+		font-size: 25px;
+	}
 
 	.links {
 		display: flex;
