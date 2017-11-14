@@ -827,20 +827,20 @@ ul {
 		top: 75%;
 	}
 
-	.links {
+	.hidden {
 		display: none;
 	}
 
-	#links-phone {
+	.links {
 		display: flex;
 	    flex-direction: column;
 	    font-size: 22px;
 	    text-align: center;
 	    align-items: center;
-	    margin-right: 2%
+	    margin-right: 2%;
 	}
 
-	#links-phone a {
+	.links a {
 		padding-bottom: 10%;
 	}
 
