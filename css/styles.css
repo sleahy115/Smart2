@@ -742,6 +742,15 @@ ul {
 		padding-left: 8%;
 	}
 
+	.business-img {
+		top: 90px;
+		left: 15px;
+	}
+
+	.business-text {
+		top: -35px;
+	}
+
 	.calendar-pro-links img {
 	height: 80%;
 	width: 80%;
@@ -767,6 +776,10 @@ ul {
 		display: none;
 	}
 
+	.hidden {
+		display: none;
+	}
+
 	.icon-test-join {
 		width: 94.5%;
 	}
@@ -776,8 +789,8 @@ ul {
 	}
 
 	.icon-options {
-		display: flex;
-		margin-left: 24%;
+		margin-right: 25%;
+		margin-left: 25%;
 	}
 
 	.icon-text {
@@ -827,14 +840,11 @@ ul {
 		top: 75%;
 	}
 
-	.hidden {
-		display: none;
-	}
 
 	.links {
 		display: flex;
 	    flex-direction: column;
-	    font-size: 22px;
+	    font-size: 30px;
 	    text-align: center;
 	    align-items: center;
 	    margin-right: 2%;
@@ -862,8 +872,8 @@ ul {
 	}
 
 	.main-img {
-		height: 358px;
-		width: 109%;
+		height: 273px;
+		width: 100%;
 	}
 
 	.paragraph {
