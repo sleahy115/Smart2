@@ -324,6 +324,11 @@
     justify-content: space-around;
 }
 
+iframe {
+	width: 100%;
+	border: 0;
+}
+
 .image {
 	position: relative;
 	width: 100%;
