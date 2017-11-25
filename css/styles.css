@@ -402,6 +402,19 @@
  	flex-direction: row;
   }
 
+  .lifestyle-text {
+  	position: absolute;
+    background-color: rgba(255,139,4, 0.7);
+    overflow-wrap: break-word;
+    color: white;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    top: 332px;
+    padding-left: 12%;
+    padding-right: 1%;
+    font-size: 60px;
+  }
+
 .links-bottom {
 	padding: 10px;
 	color: rgb(33,120,128);
@@ -745,7 +758,9 @@ ul {
 
 	.business-img {
 		top: 90px;
-		left: 15px;
+		left: -12px;
+		height: 147px;
+		width: 167px;
 	}
 
 	.business-text {
@@ -756,6 +771,10 @@ ul {
 		height: 80%;
 		width: 80%;
 		margin-left: 8%;
+	}
+
+	.col {
+		font-size: 20px;
 	}
 
 	.contact-form input, .contact-form textarea {
@@ -791,6 +810,10 @@ ul {
 	}
 
 	.hidden {
+		display: none;
+	}
+
+	.hidden-page {
 		display: none;
 	}
 
@@ -859,6 +882,10 @@ ul {
 		padding-bottom: 10px;
 	}
 
+	.lifestyle-text {
+		top: -117px;
+	}
+
 	.links {
 		display: flex;
 	    flex-direction: column;
@@ -921,6 +948,11 @@ ul {
 
 	.sponsers {
 		display: none;
+	}
+
+	.starthere {
+		width: 37.5%;
+		margin-left: 
 	}
 }
 
