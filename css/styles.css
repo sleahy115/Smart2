@@ -637,10 +637,6 @@
 }
 
 .slideshow {
-}
-
-
-.slideshow {
   align-items: center;
   display: flex;
   margin-left: 25%;
@@ -742,6 +738,10 @@ ul {
 		padding-left: 8%;
 	}
 
+	.btn-primary {
+		font-size: 21px;
+	}
+
 	.business-img {
 		top: 90px;
 		left: 15px;
@@ -759,6 +759,10 @@ ul {
 
 	.contact-form input, .contact-form textarea {
 		width: 94%;
+	}
+
+	.contact-text {
+		font-size: 21px;
 	}
 
 	.form-control {
@@ -849,8 +853,9 @@ ul {
 		top: 75%;
 	}
 
-	.label {
+	label {
 		font-size: 25px;
+		padding-bottom: 10px;
 	}
 
 	.links {
