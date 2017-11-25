@@ -736,6 +736,7 @@ ul {
 	.bottom-footer a, .bottom-footer p {
 		padding-right: 0%;
 		padding-left: 8%;
+		font-size: 14px;
 	}
 
 	.btn-primary {
@@ -872,7 +873,7 @@ ul {
 	}
 
 	.links-bottom {
-		font-size: 8px;
+		font-size: 14px;
 		margin-right: 0px;
 		margin-left: 0px;
 	}
@@ -1020,6 +1021,10 @@ ul {
 		color: black;
 		font-weight: 900;
 		font-family: arial, sans-serif;
+	}
+
+	.icon-text-nfp {
+		display: none;
 	}
 
 	.icon-text-phone {
