@@ -776,6 +776,7 @@ ul {
 
 	.col {
 		font-size: 20px;
+		word-break: break-word;
 	}
 
 	.contact-form input, .contact-form textarea {
@@ -827,8 +828,8 @@ ul {
 	}
 
 	.icon-options {
-		margin-right: 25%;
-		margin-left: 25%;
+/*		margin-right: 25%;*/
+		margin-left: 22%;
 	}
 
 	.icon-text {
@@ -836,7 +837,7 @@ ul {
 	}
 
 	.icon-text-nfp {
-		margin-left: 31%;
+		margin-left: 25%;
 		font-size: 18px;
 		color: black;
 		font-weight: 900;
@@ -844,7 +845,7 @@ ul {
 	}
 
 	.icon-text-phone {
-		margin-left: 37%;
+		margin-left: 29%;
 		font-size: 18px;
 		color: black;
 		font-weight: 900;
@@ -924,7 +925,7 @@ ul {
 	}
 
 	.logo img {
-		height: 68%;
+		height: 75%;
 		width: 88%;
 		margin-top: -12%;
 		margin-left: 6%; 
@@ -954,7 +955,11 @@ ul {
 	}
 
 	.questions {
-		width: 58%;
+		width: 75%;
+	}
+
+	#questions1 {
+		font-size: 34px;
 	}
 
 	.rsvp {
