@@ -828,6 +828,11 @@ ul {
 		display: none;
 	}
 
+	.icon-options {
+		display: flex;
+		justify-content: center;
+	}
+
 	.icon-test-join {
 		width: 94.5%;
 	}
