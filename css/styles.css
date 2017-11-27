@@ -747,6 +747,10 @@ ul {
 		margin-bottom: 4%;
 	}
 
+	body {
+		margin: 0;
+	}
+
 	.bottom-footer a, .bottom-footer p {
 		padding-right: 0%;
 		padding-left: 8%;
@@ -801,6 +805,11 @@ ul {
 		height: 10%;
 		width: 10%;
 		padding-top: 1%;
+		padding-right: 2%;
+	}
+
+	#header-w3 {
+		display: block;
 	}
 
 	.headline-join {
@@ -861,7 +870,7 @@ ul {
 
 	.image-join {
 		top: 3%;
-		left: 55%;
+		left: 45%;
 		width: 43%;
 		height: 86%;
 	}
@@ -924,11 +933,21 @@ ul {
 		margin-left: 0px;
 	}
 
+	#links-bottom-w3 {
+		font-size: 8px;
+	}
+
 	.logo img {
 		height: 75%;
 		width: 88%;
 		margin-top: -12%;
 		margin-left: 6%; 
+	}
+
+	#logo-w3 {
+		width: 75%;
+		margin-top: -10%;
+		margin-left: 0%;
 	}
 
 	.main-block img {
