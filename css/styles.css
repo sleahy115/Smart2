@@ -778,6 +778,10 @@ ul {
 		font-size: 21px;
 	}
 
+	.fees {
+		font-size: 16px;
+	}
+
 	.form-control {
 		height: 57px;
 		font-size: 28px;
@@ -811,7 +815,7 @@ ul {
 		display: none;
 	}
 
-	.hidden-page {
+	.hidden-bootstrap {
 		display: none;
 	}
 
@@ -896,6 +900,7 @@ ul {
 	label {
 		font-size: 25px;
 		padding-bottom: 10px;
+		line-height: 1.5;
 	}
 
 	.lifestyle-text {
@@ -946,6 +951,14 @@ ul {
 	.main-img {
 		height: 273px;
 		width: 100%;
+	}
+
+	.payment {
+		font-size: 20px;
+	}
+
+	.payment-info {
+		font-size: 21px;
 	}
 
 	.paragraph {
