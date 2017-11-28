@@ -782,6 +782,10 @@ ul {
 		font-size: 16px;
 	}
 
+	#forgot {
+		padding-bottom: 120%;
+	}
+
 	.form-control {
 		height: 57px;
 		font-size: 28px;
