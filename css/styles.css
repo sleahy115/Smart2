@@ -60,7 +60,7 @@
 	font-weight: 900;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	text-align: left;
-	font-size: 14px;
+	font-size: 20px;
 	word-wrap: break-word;
 }
 
@@ -200,7 +200,7 @@
     color: #000000;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 	text-align: left;
-	font-size: 16px;
+	font-size: 17px;
 	word-wrap: break-word;
 	line-height: 180%;
     margin-left: 2%;
@@ -319,8 +319,8 @@
 	background-color: rgba(255,139,4, 0.7); 
 	top: 23%;
 	left: 56%;
-	width: 41.5%;
-	height: 34%;
+	width: 35.5%;
+	height: 36%;
 	overflow-wrap: break-word; 
 	color: white;
 	font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
