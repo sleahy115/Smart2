@@ -867,7 +867,7 @@ ul {
 		top: 3%;
 		left: 45%;
 		width: 43%;
-		height: 86%;
+		height: 90%;
 	}
 
 	.image-join img {
@@ -953,6 +953,11 @@ ul {
 
 	.main-img {
 		height: 273px;
+		width: 100%;
+	}
+
+	#mobile-main {
+		height: 338px;
 		width: 100%;
 	}
 
