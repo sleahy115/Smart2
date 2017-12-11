@@ -859,7 +859,7 @@ ul {
 	.image p {
 	    font-size: 19px;
 	    width: 41%;
-	    height: 57%;
+	    height: 60%;
 	    top: 5%;
 	}
 
@@ -867,7 +867,7 @@ ul {
 		top: 3%;
 		left: 45%;
 		width: 43%;
-		height: 90%;
+		height: 67%;
 	}
 
 	.image-join img {
@@ -957,7 +957,7 @@ ul {
 	}
 
 	#mobile-main {
-		height: 415px;
+		height: 474px;
 		width: 100%;
 	}
 
